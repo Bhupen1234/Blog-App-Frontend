@@ -1,0 +1,25 @@
+.personal-blog-container {
+    padding: 20px;
+}
+  
+.section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+  
+.create-blog-button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+  
+.create-blog-button:hover {
+    background-color: #0056b3; /* Button color on hover */
+}
+  

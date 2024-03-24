@@ -1,0 +1,121 @@
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #282c34; 
+    color: white;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #61dafb; 
+  }
+  
+  .nav-links {
+    display: flex;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+    transition: color 0.3s ease; /* Smooth transition for link color */
+  }
+  
+  .nav-links a:hover {
+    color: #61dafb; /* Light blue color on hover */
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .welcome-message {
+    margin-right: 20px;
+    font-weight: bold;
+  }
+  
+  .logout-button , .logout-button-ham{
+    padding: 8px 12px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+   
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for button */
+  }
+  
+  .logout-button:hover {
+    background-color: white;
+    color: #282c34; /* Dark background color on hover */
+  }
+
+  .logout-button-ham:hover{
+    background-color: white;
+    color: #282c34; /* Dark background color on hover */
+  }
+  
+
+  .logout-button-ham{
+    display: none;
+  }
+  /* Hamburger menu styles */
+  .hamburger-menu {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .hamburger-icon {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+  }
+  
+  /* Media query for screens up to 768px */
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 70px; /* Adjust as needed */
+      left: 0;
+      width: 100%;
+      background-color: #282c34; /* Dark background color */
+      padding: 20px;
+      z-index: 1;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+  
+    .nav-links.show {
+      display: flex;
+    }
+  
+    .nav-links a {
+      margin: 10px 0;
+    }
+  
+    .user-info {
+      display: none;
+    }
+  
+    .hamburger-menu {
+      display: block;
+    }
+  
+    /* Styles for logout button within hamburger menu */
+    .hamburger-menu .logout-button {
+      display: block;
+      margin-top: 20px;
+    }
+    .logout-button-ham{
+        display: block;
+      }
+  }
+  

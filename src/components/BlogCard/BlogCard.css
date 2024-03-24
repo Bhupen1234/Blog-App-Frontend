@@ -1,0 +1,93 @@
+.blog {
+    position: relative;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .delete-post-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .blog-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .blog-info {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .blog-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .blog-description {
+    margin-bottom: 10px;
+  }
+  
+  .comments-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .comments-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .comment {
+    margin-bottom: 5px;
+  }
+  
+  .comment-username {
+    font-weight: bold;
+  }
+  
+  .comment-text {
+    color: #555;
+  }
+  
+  .comment-input-container {
+    margin-top: 15px;
+  }
+  
+  .comment-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 120px);
+    margin-right: 10px;
+  }
+  
+  .add-comment-button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    margin-top: 22px;
+  }
+  
+  .add-comment-button:hover {
+    background-color: #0056b3;
+  }
+  
